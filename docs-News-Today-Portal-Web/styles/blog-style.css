@@ -1,0 +1,230 @@
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px) {
+  .blog-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #blog-posts-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "blog-post-first"
+      "blog-post-second"
+      "blog-post-third"
+      "blog-post-fourth";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .blog-post-first {
+    border: 1px solid black;
+    display: block;
+  }
+
+  .blog-post-first img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-second {
+    border: 1px solid black;
+    display: block;
+  }
+
+  .blog-post-second img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-third {
+    border: 1px solid black;
+    display: block;
+  }
+
+  .blog-post-third img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-fourth {
+    border: 1px solid black;
+    display: block;
+  }
+
+  .blog-post-fourth img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px) {
+  .blog-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #blog-posts-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "blog-post-first"
+      "blog-post-second"
+      "blog-post-third"
+      "blog-post-fourth";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .blog-post-first {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-first img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-second {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-second img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-third {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-third img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-fourth {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-fourth img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px) {
+  .blog-news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #blog-posts-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "blog-post-first"
+      "blog-post-second"
+      "blog-post-third"
+      "blog-post-fourth";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .blog-post-first {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-first img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-second {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-second img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-third {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-third img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .blog-post-fourth {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  .blog-post-fourth img {
+    max-width: 100%;
+    min-width: 400px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}

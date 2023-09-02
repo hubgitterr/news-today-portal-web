@@ -1,0 +1,173 @@
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px) {
+  .about-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-us-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "mission"
+      "vision"
+      "contact";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .mission {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .mission img {
+    max-width: 100%;
+    min-width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .vision {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .vision img {
+    max-width: 100%;
+    min-width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .contact {
+    border: 1px solid black;
+    display: block;
+    justify-content: space-around;
+    word-spacing: 3px;
+    padding: 30px;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px) {
+  .about-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-us-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "mission"
+      "vision"
+      "contact";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .mission {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .mission img {
+    max-width: 100%;
+    min-width: 500px;
+    height: 300px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .vision {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .vision img {
+    max-width: 100%;
+    min-width: 500px;
+    height: 300px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .contact {
+    border: 1px solid black;
+    display: block;
+    justify-content: space-around;
+    word-spacing: 3px;
+    padding: 30px;
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px) {
+  .about-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-us-page {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "intro"
+      "mission"
+      "vision"
+      "contact";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .mission {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .mission img {
+    max-width: 100%;
+    min-width: 600px;
+    height: 400px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .vision {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .vision img {
+    max-width: 100%;
+    min-width: 600px;
+    height: 400px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .contact {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 3px;
+    padding: 30px;
+  }
+}

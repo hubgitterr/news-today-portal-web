@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles sheets used to style the website -->
+    <link rel="stylesheet" href="styles/common-styles.css" />
+    <link rel="stylesheet" href="styles/index-style.css" />
+    <!-- Fonts used throughout the website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Script for the slideshow's functionality -->
+    <script src="main.js"></script>
+    <title>News Today</title>
+  </head>
+  <body>
+    
+    <header>
+      <h1>News Today</h1>
+      <!--Navigation Links for Home, Blog, About Us, Join Us & FAQ-->
+      <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id= "toggle"/>
+        <div id = "menu">
+        <ul>
+          <li class="hvr-grow"><a href="index.html">Home</a></li>
+          <li class="hvr-grow"><a href="blog.html">Blog</a></li>
+          <li class="hvr-grow"><a href="about-us.html">About Us</a></li>
+          <li class="hvr-grow"><a href="join-us.html">Join Us</a></li>
+          <li class="hvr-grow"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      
+      <div class="all-news">
+        <section id="last-news">
+          <!-- Section with the last news from the world -->
+          <article class="last-news-world">
+            <a href="blog.html#postfi"><img
+              src="assets\homenblogAssets\bridge.jpg"
+              alt="image of the bridge"
+            />
+            <h2>World: Businesses in bloom!</h2></a>
+          </article>
+          <!-- Section with the last news from the country -->
+          <article class="last-news-country">
+            <a href="blog.html#postse"><img
+              src="assets\homenblogAssets\embrace.jpg"
+              alt="image of the two people huging"
+            />
+
+            <h2>Country: Calling for changes!</h2></a>
+          </article>
+          <!-- Section with the last news from the field of science -->
+          <article class="last-news-science">
+            <a href="blog.html#postth"><img
+              src="assets\homenblogAssets\lantern.jpg"
+              alt="image of the lanterns near the roofs"
+            />
+
+            <h2>Science: UNC-Chapel Hill</h2></a>
+          </article>
+        </section>
+
+        <section id="main-news">
+          <!-- Main news in that moment as a photo -->
+          <article class="main-news-photo">
+            <a href="blog.html#postfo"><img
+              src="assets\homenblogAssets\trees.jpg"
+              alt="image of the road and trees in the nature"
+            /></a>
+          </article>
+          <!-- Text of the main news in that moment -->
+          <article class="main-news-text">
+            <h2>Allergy season is arriving sooner!</h2>
+            <p>
+              Scientists say allergy season is starting sooner and lasting
+              longer because of climate change. Allergists said at one time,
+              pollen season didn’t kick off until St. Patrick’s Day. Now higher
+              pollen counts can start as early as Valentine's Day. According to
+              a study from the journal Me and Nature, as the world becomes
+              warmer, allergy season will start weeks sooner and end many days
+              later. Springtime in general gives some people job stability. Once
+              mid-March hits, Joe Wright said this is a busy time of year for
+              landscaping. Climate scientists said a warmer world directly ties
+              to an earlier and longer allergy season. In another study
+              published in the Journal of Sciences in 2020, human-caused climate
+              change could impact respiratory health because of higher
+              concentrations of airborne pollen. Wright said he has been in a
+              landscaping job for 10 years. He said no matter the impact on his
+              own health, for him it will be business as usual like this time
+              every March.
+            </p>
+          </article>
+        </section>
+        
+        <section id="news-in-photos">
+          <!-- Slide show that shows news in images -->
+          <div class="slideshow-container">
+            <!-- Each slide has a text section for the number of slide, and image and caption -->
+            <div class="slide">
+              <div class="numbertext">1 / 4</div>
+              <img
+                src="assets\homenblogAssets\bridge.jpg"
+                style="width: 100%"
+                alt="image of the bridge"
+              />
+              <a href="blog.html#postfi" class="text">Businesses in bloom!</a>
+            </div>
+
+            <div class="slide" style="display: none">
+              <div class="numbertext">2 / 4</div>
+              <img
+                src="assets\homenblogAssets\lantern.jpg"
+                style="width: 100%"
+                alt="image of the lanterns near the roofs"
+              />
+              <a href="blog.html#postth" class="text"
+                >UNC-Chapel Hill will host new hub for research!</a
+              >
+            </div>
+
+            <div class="slide" style="display: none">
+              <div class="numbertext">3 / 4</div>
+              <img
+                src="assets\homenblogAssets\embrace.jpg"
+                style="width: 100%"
+                alt="image of the two people huging"
+              />
+              <a href="blog.html#postse" class="text"
+                >Family calling for changes!</a
+              >
+            </div>
+
+            <div class="slide" style="display: none">
+              <div class="numbertext">4 / 4</div>
+              <img
+                src="assets\homenblogAssets\trees.jpg"
+                style="width: 100%"
+                alt="image of the road and trees in the nature"
+              />
+              <a href="blog.html#postfo" class="text"
+                >Allergy season is arriving sooner</a
+              >
+            </div>
+            <!-- Naviagtion dots for the slideshow -->
+            <div style="text-align: center">
+              <span class="dot active" onclick="showSlide(0)"></span>
+              <span class="dot" onclick="showSlide(1)"></span>
+              <span class="dot" onclick="showSlide(2)"></span>
+              <span class="dot" onclick="showSlide(3)"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+    <!--Footer-->
+    <footer>
+      <!-- W3C validator -->
+      <a target="_blank" href="https://validator.w3.org/"
+        ><img
+          src="assets/commonAssets/validator.png"
+          width="80"
+          height="50"
+          alt="W3C Logo"
+      /></a>
+      <!-- Address of the News Today -->
+      <div>
+        <p>24 News Street</p>
+        <p>Today City</p>
+        <p>PO Box: 123456</p>
+      </div>
+      <!-- Contact information -->
+      <div>
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/phone_icon.png"
+            alt="phone icon"
+          />
+          Contact: <a href="tel:+123-456-789">+123-456-789</a>
+        </p>
+
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/email_icon.png"
+            alt="email icon"
+          />
+          Email:
+          <a href="mailto:support@newstoday.com">support@newstoday.com</a>
+        </p>
+
+        <p><a href="sitemap.html">Sitemap HTML</a></p>
+      </div>
+      <!-- Scroll bar by progression -->
+      <style>
+          #progress {
+            border-bottom: 2px solid rgb(107, 172, 9);
+            width:0;
+            position:fixed;
+            top:0; left:0;
+          }
+      </style>
+      <script>
+          var bar = document.getElementById("progress");
+          window.addEventListener("scroll", function(){
+              bar.style.width = pageYOffset;
+          })
+      </script>
+    </footer>
+    <div id="progress"></div>
+  </body>
+  
+</html>

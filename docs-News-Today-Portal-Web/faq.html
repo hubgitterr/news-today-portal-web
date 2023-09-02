@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles sheets used to style the website -->
+    <link rel="stylesheet" href="styles/common-styles.css" />
+    <link rel="stylesheet" href="styles/faq-style.css" />
+    <!-- Fonts used throughout the website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>News Today</title>
+  </head>
+  <body>
+    <header>
+      <h1>News Today</h1>
+      <!--Navigation Links for Home, Blog, About Us, Join Us & FAQ-->
+      <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id= "toggle"/>
+        <div id = "menu">
+        <ul>
+          <li class="hvr-grow"><a href="index.html">Home</a></li>
+          <li class="hvr-grow"><a href="blog.html">Blog</a></li>
+          <li class="hvr-grow"><a href="about-us.html">About Us</a></li>
+          <li class="hvr-grow"><a href="join-us.html">Join Us</a></li>
+          <li class="hvr-grow"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="faq-part">
+        <section id="faq">
+          <!-- Name of this webpage with short description -->
+          <div class="intro">
+            <h1>FAQ - Frequently Asked Questions</h1>
+            <p>
+              Here you can find the most frequently asked questions and their
+              answers!
+            </p>
+          </div>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>What can I find on News Today websites?</h2>
+            <h3>
+              News Today delivers the latest news from your community and the
+              world. For a top news that we serve, click on our 'Home' button.
+            </h3>
+          </article>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>
+              Which browser should I be using to get the most from your site?
+            </h2>
+            <h3>
+              It is optimised for versions 4 and above of Netscape and Internet
+              Explorer. If your browser can't display tables or Java, use the
+              text only version.
+            </h3>
+          </article>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>How do I know if I am viewing the most up-to-date material?</h2>
+            <h3>
+              Click the refresh or reload button on your browser every time you
+              visit.
+            </h3>
+          </article>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>What's the best way of hearing audio and viewing video?</h2>
+            <h3>
+              Download RealPlayer version 9 or above from RealNetworks or
+              Microsoft Windows Media Player version 9 or above to get
+              multimedia capability.
+            </h3>
+          </article>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>How can I see news that is relevant to my country?</h2>
+            <h3>
+              Our goal is to offer an app that curates relevant news for users
+              all over the world, and from all walks of life. To see news more
+              relevant to your country, you can follow more news sources based
+              in your country, including smaller, local sources.
+            </h3>
+          </article>
+          <!-- Article with question and answer -->
+          <article class="each-question">
+            <h2>I have a suggestion. How do I give it to you?</h2>
+            <h3>
+              Please send us your feedback at our support email below.
+              Developers regularly review feedback to improve the app
+              experience. We thank you in advance for your suggestions!
+            </h3>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <!-- W3C validator -->
+      <a target="_blank" href="https://validator.w3.org/"
+        ><img
+          src="assets/commonAssets/validator.png"
+          width="80"
+          height="50"
+          alt="W3C Logo"
+      /></a>
+      <!-- Address of the News Today -->
+      <div>
+        <p>24 News Street</p>
+        <p>Today City</p>
+        <p>PO Box: 123456</p>
+      </div>
+      <!-- Contact information -->
+      <div>
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/phone_icon.png"
+            alt="phone icon"
+          />
+          Contact: <a href="tel:+123-456-789">+123-456-789</a>
+        </p>
+
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/email_icon.png"
+            alt="email icon"
+          />
+          Email:
+          <a href="mailto:support@newstoday.com">support@newstoday.com</a>
+        </p>
+        <p><a href="sitemap.html">Sitemap HTML</a></p>
+      </div>
+      <!-- Scroll bar by progression -->
+      <style>
+        #progress {
+          border-bottom: 2px solid rgb(107, 172, 9);
+          width:0;
+          position:fixed;
+          top:0; left:0;
+        }
+      </style>
+      <script>
+        var bar = document.getElementById("progress");
+        window.addEventListener("scroll", function(){
+            bar.style.width = pageYOffset;
+        })
+      </script>
+    </footer>
+    <div id="progress"></div>
+  </body>
+</html>

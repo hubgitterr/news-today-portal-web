@@ -1,0 +1,379 @@
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 900px) {
+  .join-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-team {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "first-worker"
+      "second-worker"
+      "third-worker"
+      "fourth-worker"
+      "fifth-worker"
+      "sixth-worker";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  #jobs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "job"
+      "job"
+      "job";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .job {
+    border: outset;
+    padding: 20px;
+    display: block;
+  }
+
+  .first-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .first-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .second-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .second-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .third-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .third-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fourth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .fourth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fifth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .fifth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .sixth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .sixth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 901px) and (max-width: 1278px) {
+  .join-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-team {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      "first-worker second-worker"
+      "third-worker fourth-worker"
+      "fifth-worker sixth-worker";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  #jobs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "job"
+      "job"
+      "job";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .job {
+    border: outset;
+    padding: 20px;
+    display: flex;
+  }
+
+  .first-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .first-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .second-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .second-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .third-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .third-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fourth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .fourth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fifth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .fifth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .sixth-worker {
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+  }
+
+  .sixth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1279px) {
+  .join-us-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #our-team {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+      "first-worker second-worker third-worker"
+      "fourth-worker fifth-worker sixth-worker";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  #jobs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "job"
+      "job"
+      "job";
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+  .job {
+    border: outset;
+    padding: 20px;
+    display: flex;
+  }
+
+  .first-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .first-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .second-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .second-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .third-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .third-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fourth-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .fourth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .fifth-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .fifth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+
+  .sixth-worker {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+  }
+
+  .sixth-worker img {
+    max-width: 400px;
+    min-width: 200px;
+    height: 250px;
+    object-fit: fill;
+    border: 1px solid black;
+    margin: 3px;
+  }
+}

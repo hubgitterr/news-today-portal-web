@@ -1,0 +1,443 @@
+/*Common CSS-------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px) {
+  body {
+    background: #fcde67;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+  }
+
+  h1 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    color: #030e12;
+    display: inline;
+  }
+
+  h2 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #030e12;
+  }
+
+  h3 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #030e12;
+  }
+
+  p {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #030e12;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px) {
+  body {
+    background: #fcde67;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+  }
+
+  h1 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: #030e12;
+    display: inline;
+  }
+
+  h2 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #030e12;
+  }
+
+  h3 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #030e12;
+  }
+
+  p {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #030e12;
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px) {
+  body {
+    background: #fcde67;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+  }
+
+  h1 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 3em;
+    color: #030e12;
+    display: inline;
+  }
+
+  h2 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #030e12;
+  }
+
+  h3 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #030e12;
+  }
+
+  p {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #030e12;
+  }
+}
+
+/*Header CSS---------------------------------------*/
+header {
+  background: #5bccf6;
+  background-image: url("/assets/commonAssets/headimg.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #030e12;
+  text-align: left;
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+}
+
+header h1 {
+  font-weight: 800;
+}
+
+/*Nav CSS-------------------------------------------*/
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 570px) {
+  nav {
+    text-align: right;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+    color: rgb(48, 67, 236);
+    float: right;
+    margin-right: 20px;
+    position: relative;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  nav #menu {
+    display: none;
+    border-radius: 20px;
+    width: 100%;
+    clear: right;
+  }
+
+  nav li {
+    display: inline;
+    border: 2px solid #030e12;
+    border-radius: 0px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+    background-color: #5bccf6;
+  }
+
+  nav li a {
+    font-style: normal;
+    text-decoration: none;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+  }
+
+  /*Nav button hover grow effect----------------------------*/
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
+
+  #toggle:checked + #menu {
+    display: block;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 571px) and (max-width: 1010px) {
+  nav {
+    text-align: right;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    text-align: center;
+    display: none;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  nav li {
+    display: inline;
+    border: 2px solid #030e12;
+    border-radius: 0px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+    background-color: #5bccf6;
+  }
+
+  nav li a {
+    font-style: normal;
+    text-decoration: none;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+  }
+
+  /*Nav button hover grow effect----------------------------*/
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px) {
+  nav {
+    text-align: right;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    text-align: center;
+    display: none;
+  }
+
+  #toggle {
+    display: none;
+  }
+
+  nav li {
+    display: inline;
+    border: 2px solid #030e12;
+    border-radius: 0px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+    background-color: #5bccf6;
+  }
+
+  nav li a {
+    font-style: normal;
+    text-decoration: none;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+  }
+
+  /*Nav button hover grow effect----------------------------*/
+  .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+    transform: scale(1.1);
+  }
+}
+
+.intro {
+  background-color: #fcde67;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+/* button {
+  display: block;
+  margin: 5px;
+  padding: 16px 32px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(182 216 229);
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+} */
+
+/*To indicate button is hovered over*/
+/* button:hover {
+  background-color: #0a3144;
+  color: white;
+} */
+
+/*Footer CSS-------------------------------------------*/
+
+/*Mobile-------------------------------------*/
+@media only screen and (max-width: 650px) {
+  footer {
+    display: block;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background: #5bccf6;
+    border-radius: 5px;
+    border: 1px solid #030e12;
+    font-size: 25px;
+    word-spacing: 1px;
+    padding: 20px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/*Tablet-------------------------------------*/
+@media only screen and (min-width: 651px) and (max-width: 1010px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background: #5bccf6;
+    border-radius: 5px;
+    border: 1px solid #030e12;
+    font-size: 25px;
+    word-spacing: 1px;
+    padding: 20px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/*Desktop-------------------------------------*/
+@media only screen and (min-width: 1011px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    background: #5bccf6;
+    border-radius: 5px;
+    border: 1px solid #030e12;
+    font-size: 25px;
+    word-spacing: 1px;
+    padding: 20px;
+  }
+
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles sheets used to style the website -->
+    <link rel="stylesheet" href="styles/common-styles.css" />
+    <link rel="stylesheet" href="styles/aboutus-style.css" />
+    <!-- Fonts used throughout the website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>News Today</title>
+  </head>
+  <body>
+    <header>
+      <h1>News Today</h1>
+      <!--Navigation Links for Home, Blog, About Us, Join Us & FAQ-->
+      <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id= "toggle"/>
+        <div id = "menu">
+        <ul>
+          <li class="hvr-grow"><a href="index.html">Home</a></li>
+          <li class="hvr-grow"><a href="blog.html">Blog</a></li>
+          <li class="hvr-grow"><a href="about-us.html">About Us</a></li>
+          <li class="hvr-grow"><a href="join-us.html">Join Us</a></li>
+          <li class="hvr-grow"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about-us-field">
+        <section id="about-us-page">
+          <!-- Name of this webpage with short description -->
+          <div class="intro">
+            <h1>About Us</h1>
+            <p>
+              Find the details about our mission, vision and how to contact us!
+            </p>
+          </div>
+          <!-- Article that descibes our mission -->
+          <article class="mission">
+            <img
+              src="assets\aboutusAssets\mission.jpg"
+              alt="image of the road and green fields in the nature"
+            />
+            <div>
+              <h2>Mission</h2>
+              <p>
+                We evolving the way the world moves. To enrich people’s lives
+                with programmes and services that inform, educate and entertain.
+                To deliver information on the people, ideas and technologies
+                changing the world to our community of affluent business
+                decision makers. By seamlessly connecting riders to drivers
+                through our apps, we make cities more accessible, opening up
+                more possibilities for riders and more business for drivers. To
+                help bring creative projects to life. To be one of the world’s
+                leading producers and providers of entertainment and
+                information, using its portfolio of brands to differentiate its
+                content, services and consumer products. To help humanity thrive
+                by enabling all teams to work together effortlessly.
+              </p>
+            </div>
+          </article>
+          <!-- Article that descibes our vision -->
+          <article class="vision">
+            <img
+              src="assets\aboutusAssets\vision.jpg"
+              alt="image of the standing person in the sun"
+            />
+            <div>
+              <h2>Vision</h2>
+              <p>
+                Human dignity, peace, safety, and wellbeing for all. To move
+                with velocity to drive profitable growth and become an even
+                better, serving more customers each day around the world.
+                Helping customers pioneer more sustainable solutions, delivering
+                packages more efficiently, creating more connections around the
+                world, and finding more ways to take action and give back. We
+                celebrate the abundance of the news and story we share. Building
+                meaningful relationships with the world around us. We believe in
+                fostering a culture that embraces ingenuity, explores ideas
+                fearlessly, and challenges everyone to think a bit differently.
+                To transform people and businesses around the world through
+                remarkable growth is supported by our amazing team relentlessly
+                striving to live out our core values of Relationship, Journey,
+                Excellence, Integrity, and Legacy every day in everything we do.
+              </p>
+            </div>
+          </article>
+          <!-- Article with our contact channels -->
+          <article class="contact">
+            <h2>Contact Us</h2>
+            <p>
+              <img
+                class="icon"
+                src="assets\aboutusAssets\phone_icon.png"
+                alt="phone icon"
+              />
+              Phone: <a href="tel:+123-456-789">+123-456-789</a>
+            </p>
+
+            <p>
+              <img
+                class="icon"
+                src="assets\aboutusAssets\email_icon.png"
+                alt="email icon"
+              />
+              Email:
+              <a href="mailto:support@newstoday.com">support@newstoday.com</a>
+            </p>
+
+            <p>
+              <img
+                class="icon"
+                src="assets\aboutusAssets\face-icon.png"
+                alt="facebook icon"
+              />
+              Facebook:
+              <a href="https://www.facebook.com/NewsToday">NewsToday</a>
+            </p>
+
+            <p>
+              <img
+                class="icon"
+                src="assets\aboutusAssets\insta-icon.png"
+                alt="instagram icon"
+              />
+              Instagram:
+              <a href="https://www.instagram.com/NewsToday">NewsToday</a>
+            </p>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <!-- W3C validator -->
+      <a target="_blank" href="https://validator.w3.org/"
+        ><img
+          src="assets/commonAssets/validator.png"
+          width="80"
+          height="50"
+          alt="W3C Logo"
+      /></a>
+      <!-- Address of the News Today -->
+      <div>
+        <p>24 News Street</p>
+        <p>Today City</p>
+        <p>PO Box: 123456</p>
+      </div>
+      <!-- Contact information -->
+      <div>
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/phone_icon.png"
+            alt="phone icon"
+          />
+          Contact: <a href="tel:+123-456-789">+123-456-789</a>
+        </p>
+
+        <p>
+          <img
+            class="icon"
+            src="assets/commonAssets/email_icon.png"
+            alt="email icon"
+          />
+          Email:
+          <a href="mailto:support@newstoday.com">support@newstoday.com</a>
+        </p>
+        <p><a href="sitemap.html">Sitemap HTML</a></p>
+      </div>
+      <!-- Scroll bar by progression -->
+      <style>
+        #progress {
+          border-bottom: 2px solid rgb(107, 172, 9);
+          width:0;
+          position:fixed;
+          top:0; left:0;
+        }
+      </style>
+      <script>
+        var bar = document.getElementById("progress");
+        window.addEventListener("scroll", function(){
+            bar.style.width = pageYOffset;
+        })
+      </script>
+    </footer>
+    <div id="progress"></div>
+  </body>
+</html>

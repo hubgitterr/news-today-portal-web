@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles sheets used to style the website -->
+    <link rel="stylesheet" href="styles/common-styles.css" />
+    <link rel="stylesheet" href="styles/index-style.css" />
+    <!-- Fonts used throughout the website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Script for the slideshow's functionality -->
+    <script src="main.js"></script>
+    <title>News Today</title>
+  </head>
+
+  <body>  
+    <header>
+      <h1>News Today</h1>
+      <!--Navigation Links for Home, Blog, About Us, Join Us & FAQ-->
+      <nav>
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id= "toggle"/>
+        <div id = "menu">
+        <ul>
+          <li class="hvr-grow"><a href="index.html">Home</a></li>
+          <li class="hvr-grow"><a href="blog.html">Blog</a></li>
+          <li class="hvr-grow"><a href="about-us.html">About Us</a></li>
+          <li class="hvr-grow"><a href="join-us.html">Join Us</a></li>
+          <li class="hvr-grow"><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="intro">
+        <h1>Sitemap HTML</h1>
+        <p>List of the links</p>
+      </div>
+    <section id="siteli">
+        <div id="sitelinks">
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="about-us.html">About Us</a>
+            <a href="join-us.html">Join Us</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+
+        <style>
+            #siteli {
+                display:inline;
+                position:inherit;
+                width: 500px;
+                height: 600px;
+            }
+            #sitelinks {
+              display:grid;
+              text-decoration-color: blue;
+              position:absolute;
+              top:330px; left:150px;
+              
+            }
+        </style>
+
+        <div id="progress"></div>
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <!-- W3C validator -->
+        <a target="_blank" href="https://validator.w3.org/"
+          ><img
+            src="assets/commonAssets/validator.png"
+            width="80"
+            height="50"
+            alt="W3C Logo"
+        /></a>
+        <!-- Address of the News Today -->
+        <div>
+          <p>24 News Street</p>
+          <p>Today City</p>
+          <p>PO Box: 123456</p>
+        </div>
+        <!-- Contact information -->
+        <div>
+          <p>
+            <img
+              class="icon"
+              src="assets/commonAssets/phone_icon.png"
+              alt="phone icon"
+            />
+            Contact: <a href="tel:+123-456-789">+123-456-789</a>
+          </p>
+  
+          <p>
+            <img
+              class="icon"
+              src="assets/commonAssets/email_icon.png"
+              alt="email icon"
+            />
+            Email:
+            <a href="mailto:support@newstoday.com">support@newstoday.com</a>
+          </p>
+  
+          <p><a href="sitemap.html">Sitemap HTML</a></p>
+        </div>
+        <!-- Scroll bar by progression -->
+        <style>
+            #progress {
+              border-bottom: 2px solid rgb(107, 172, 9);
+              width:0;
+              position:fixed;
+              top:0; left:0;
+            }
+        </style>
+        <script>
+            var bar = document.getElementById("progress");
+            window.addEventListener("scroll", function(){
+                bar.style.width = pageYOffset;
+            })
+        </script>
+      </footer>
+    </body>  
+    
+  </html>
